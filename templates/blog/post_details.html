@@ -1,0 +1,15 @@
+{% extends "blog/base.html" %}
+
+{% block content %}
+    <h2>{{ post.title }}</h2>
+    <h5>Author- {{post.author}} @ {{post.publish}}</h5>
+    <p>
+        {{post.body}}
+    </p>
+    <p>
+        Views: {{post.views}} Like: {{post.like}}
+    </p>
+    <div>
+        <a href="share/{{post.id}}">Share!</a>
+    </div>
+{% endblock %}

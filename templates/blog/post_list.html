@@ -1,0 +1,9 @@
+{% extends "blog/base.html" %}
+
+{% block content %}
+    {% for post in posts %}
+        <a href="{{post.get_absolute_url}}" class="post_title">{{post.title}}</a><br/>
+    {% endfor %}
+
+    {% include "paginator.html" with page=page_obj %}
+{% endblock %}

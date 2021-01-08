@@ -1,0 +1,36 @@
+body{
+    padding:  0px;
+    margin: 0px;
+}
+h1{
+    color: floralwhite;
+    text-align: center;
+    background-color: rgb(69, 69, 201);
+    margin: 0px;
+    padding: 1em 0;
+}
+.content{
+    border: 1px solid gray;
+    padding: 1em;
+    margin: .5em 1em;
+}
+.post_title{
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.pagination{
+    background-color:rgb(22, 22, 63);
+    color: rgb(251, 251, 255);
+    padding: 1em 5em;
+    text-align: center;
+    margin-top: 50px;
+}
+.paginator-link{
+    text-decoration: none;
+    color: white;
+
+}
+.current-page{
+    margin: 0 3em;
+}
